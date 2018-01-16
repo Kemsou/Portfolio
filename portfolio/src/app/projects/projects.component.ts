@@ -8,10 +8,10 @@ import {Project } from '../project';
 })
 export class ProjectsComponent implements OnInit {
 
-  project = Project {
+  project: Project = {
     id: 1,
     name: 'Bloody Foundry'
-  }
+  };
 
   constructor() { }
 

@@ -12,4 +12,8 @@ export class ProjectService {
     return PROJECTS;
   }
 
+  getProject(id: number): Project{
+    return of(PROJECTS.find(project => project.id === id));
+  }
+
 }

@@ -14,15 +14,17 @@ import { Project } from '../project';
 
 export class ProjectDetailComponent implements OnInit {
 
+@Input() project: Project;
+
   constructor(
     private projectService: ProjectService,
     private route: ActivatedRoute,
     private location: Location
   ) { }
 
-  getProjects(): void{
+  getProjecs(): void{
     const id = +this.route.snapshot.paramMap.get('id');
-    this.projectService.getProject(id);
+    this.project = this.projectService.getProject(id);
   }
 
   goBack(): void {
@@ -30,6 +32,7 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.getProjecs()
   }
 
 }

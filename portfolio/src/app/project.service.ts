@@ -13,7 +13,6 @@ export class ProjectService {
   }
 
   getProject(id: number): Project{
-    return of(PROJECTS.find(project => project.id === id));
+    return PROJECTS.find(project => project.id === id);
   }
-
 }

@@ -7,11 +7,10 @@ import { ProjectService } from './project.service';
 import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-import { MasonryModule } from 'angular2-masonry';
-
+import { MasonryModule } from './angular2-masonry';
 
 @NgModule({
   declarations: [

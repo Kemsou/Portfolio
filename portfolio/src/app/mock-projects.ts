@@ -1,9 +1,9 @@
 import { Project } from './project';
 
 export const PROJECTS: Project[]= [
-    {id: 11, name: 'Bloody Foundry' },
-    {id: 12, name: 'Immune Defense' },
-    {id: 13, name: 'Cosmopolis' },
-    {id: 14, name: 'Progression Donjon' },
-    {id: 15, name: 'Circuits Trackmania' },
+    {id: 11, title: 'Bloody Foundry', image: "assets/images/Bloody Foundry.bmp", importance: 5 },
+    {id: 12, title: 'Immune Defense', image: "assets/images/Bloody Foundry.bmp", importance: 4 },
+    {id: 13, title: 'Cosmopolis', image: "assets/images/Bloody Foundry.bmp", importance: 3 },
+    {id: 14, title: 'Progression Donjon', image: "assets/images/Bloody Foundry.bmp", importance: 4 },
+    {id: 15, title: 'Circuits Trackmania', image: "assets/images/Bloody Foundry.bmp", importance: 2 },
 ]

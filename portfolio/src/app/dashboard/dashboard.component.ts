@@ -20,7 +20,7 @@ export class DashboardComponent implements OnInit {
   }
 
   getProjects(): void {
-    this.projects = this.projectService.getProjects().slice(1, 5)
+    this.projects = this.projectService.getProjects()
   }
 
 }

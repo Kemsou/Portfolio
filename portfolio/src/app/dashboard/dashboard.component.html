@@ -1,5 +1,7 @@
-<masonry [options]="{ gutter: 5}">
+<masonry [options]="{ gutter: 5, originTop: true, columnWidth: '.grid-sizer'}">
   <masonry-brick class="brick" *ngFor="let brick of projects">
-      <img src={{brick.image}} alt={{brick.title}} width={{599*brick.importance/5}}>
+      <div class="grid-sizer">
+        <img src={{brick.image}} alt={{brick.title}}>
+      </div>
   </masonry-brick>
 </masonry>

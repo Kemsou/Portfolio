@@ -2,3 +2,7 @@
  masonry{
    width: 100%;
  }
+
+ .grid-sizer{
+   width:20%;
+ }
